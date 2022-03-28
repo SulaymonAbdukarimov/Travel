@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Travel</title>
+</head>
+
+<body>
+    <!-- Header section -->
+    <div class="container">
+        <header class="main-header">
+            <img class="logo" src="/images/logo.svg" alt="Logo">
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item">
+                        <a href="#">Destination</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Offer</a>
+                    </li>
+                    <li class="main-navigation__item">
+                        <a href="#">Tour</a>
+                    </li>
+                </ul>
+            </nav>
+            <span><i class="far fa-user"></i><a class="main-navigation__account" href="#">My Account |</a><i
+                    class="fas fa-search"></i>
+            </span>
+        </header>
+    </div>
+    <!-- Main banner -->
+    <div class="container">
+        <div class="banner">
+            <div class="main-banner">
+                <div class="main-banner__title">
+                    <h1>
+                        It’s Time To <br>
+                        Explore The World
+                    </h1>
+
+                    <button>Plan Your Trip</button>
+
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="main-banner__footer-main">
+
+                <div class="main-banner__footer">
+                    <span><button class="active">
+                            < </button></span>
+                    <span><button>
+                            ></button></span>
+
+                    <span class="line"></span>
+                    <span class="main-banner-03">03</span>
+                </div>
+
+                <div class="main-banner__footer2">
+
+                    <div class="destination">
+                        <label for="destination">Destinations</label> <br>
+                        <select name="destination" id="destination">
+                            <option value="Uzbekistan">Arab Egypt</option>
+                            <option value="Rassia">Rassia</option>
+                            <option value="USA">USA</option>
+                            <option value="China">China</option>
+                        </select>
+                    </div>
+
+                    <div class="calendar">
+                        <label for="start">Check In</label> <br>
+                        <input type="date" id="start" name="trip-start" value="2021-01-01">
+                    </div>
+
+                    <div class="range">
+                        <label for="range">Price Range</label> <br>
+
+                        <input id="range" type="text" value="$500 - $10,000"><i class="usd">$</i>
+
+                    </div>
+
+                    <div class="main-banner__footer2-button">
+                        <button>Discover Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- Card -->
+    <div class="container">
+        <div class="main-card">
+            <div class="card">
+                <img src="./images/map 1.png" alt="Map">
+                <h3>Choose Destination</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+            <div class="card">
+                <img src="./images/binocular 1.png" alt="Binocular">
+                <h3>Explore The Place</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+            <div class="card">
+                <img src="./images/backpack 1.png" alt="Backpack">
+                <h3>Start Your Journey</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+            <div class="card">
+                <img src="./images/ukelele 1.png" alt="Ucelili">
+                <h3>Let’s Enjoy</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing setting</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="clear"></div>
+    <!-- Top Destination  -->
+    <div class="container">
+        <div class="top-destination">
+            <div class="top-destination__first">
+                <h2>Top <span>Destinations</span> <br>In The World</h2>
+                <p>It is a long established fact that a reader will be the distracted by the readable content of a
+                    page
+                    when looking at its layout from it.</p>
+                <button class="discover-more">Discover More</button>
+            </div>
+            <div class="top-destination__second">
+                <img class="cuba" src="./images/Cuba-city 1.png" alt="Cuba city"><span>Cuba city</span>
+                <img class="paris" src="./images/Paris-City.png" alt="Paris"> <span>Paris</span>
+                <img class="japan" src="./images/japan.png" alt="Japan"> <span>Japan</span>
+            </div>
+            <img class="bg" src="./images/Bg.png" alt="Bg">
+        </div>
+    </div>
+    <div class="clear"></div>
+    <!-- Offer section -->
+    <div class="container">
+        <div class="offer">
+            <div class="offer-first">
+                <img class="offer-img3" src="./images/Ellipse 1.svg" alt="ellipse">
+
+                <img class="offer-img1" src="./images/lighthouse 1.jpg" alt="lighthouse">
+                <img class="offer-img2" src="./images/Rectangle 25.png" alt="rectangle">
+                <img class="offer-img4" src="./images/pattern.svg" alt="pattern">
+
+            </div>
+            <div class="offer-second">
+                <h2>We Offering In Total 793 <br> Tours Out The World</h2>
+                <div class="offer-second1">
+                    <i class="far fa-user"></i>
+                    <span>Best Travel Guide Always For Your Services</span>
+                    <p>Travel has helped us to understandsa the meaning of life and it has helped us become better
+                        people. Each time we travel, we see the world with new eyes. Travel has helped us to understand
+                        the meaning of life</p>
+                    <hr>
+                </div>
+                <div class="offer-second2">
+                    <i class="fa fa-globe"></i> <span>World Class Services Provide For You</span>
+                    <hr>
+                </div>
+                <div class="offer-second3">
+                    <i class="fa fa-headphones"></i> <span>24/7 Strong Customer Support</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Choose your destination -->
+    <div class="container">
+        <div class="choose-main">
+            <img class="green-color" src="./images/Ellipse 35.svg" alt="Elipse">
+            <h2>Choose Your Destination</h2>
+        </div>
+
+        <div class="choose">
+            <div class="choose1">
+                <img class="img2" src="./images/Vector.svg" alt="vector 1">
+                <img class="img" src="./images/place-1 1.png" alt="first card">
+                <div class="choose-bottom">
+                    <div class="choose-bottom1">
+                        <h6>Santorini, Oia Greece</h6>
+                        <span class="doller">$2000</span>
+                        <span class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                        <span class="reviews">5k
+                            Reviews</span>
+                    </div>
+                    <div class="choose-bottom2">
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="choose2">
+                <img class="img" src="./images/place-2 1.png" alt="second card">
+                <div class="choose-bottom choose-bottom-middle">
+                    <div class="choose-bottom1">
+                        <h6>Santorini, Oia Greece</h6>
+                        <span class="doller">$2000</span>
+                        <span class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                        <span class="reviews">5k
+                            Reviews</span>
+                    </div>
+                    <div class="choose-bottom2">
+                        <button>+</button>
+                    </div>
+                </div>
+                <button class="discover-more choose-btn">View All Places</button>
+            </div>
+            <div class="choose3">
+                <img class="img2" src="./images/Vector (1).svg" alt="vector 2">
+                <img class="img" src="./images/place-3 1.png" alt="Card 3">
+                <div class="choose-bottom">
+                    <div class="choose-bottom1">
+                        <h6>Santorini, Oia Greece</h6>
+                        <span class="doller">$2000</span>
+                        <span class="star"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                        <span class="reviews">5k
+                            Reviews</span>
+                    </div>
+                    <div class="choose-bottom2">
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customers -->
+    <div class="container">
+        <div class="customers">
+            <div class="customers-first">
+                <img class="ellipse-36" src="./images/Ellipse 36.svg" alt="ellipse 36">
+                <div class="img-15">
+                    <img src="./images/image 8.svg" alt="img 15">
+                </div>
+                <div class="img-14">
+                    <img src="./images/image 7.svg" alt="img 14">
+                </div>
+                <div class="img-12">
+                    <img src="./images/image 6.svg" alt="img 12">
+                </div>
+                <div class="img-13">
+                    <img src="./images/image 5.svg" alt="img 13">
+                </div>
+            </div>
+            <div class="customers-second">
+                <h2>What Our Happy Customers <br>
+                    Say About Us</h2>
+                <div class="customers-card">
+                    <div class="customer-main">
+                        <div class="card11">
+                            <div class="customers-img">
+                                <img src="./images/Ellipse 27.png" alt="elipse 27">
+                            </div>
+                            <div class="customers-name">
+                                <h3>Md Shamim Hossain</h3>
+                                <p class="job">UI/UX Designer</p>
+                            </div>
+                        </div>
+                        <p class="customer-self">
+                            Jetrips Hotel is an excellent choice for anybody for considering hosting their events there.
+                            Top levela facilities and excellent staff make for a brilliantad environment within which to
+                            operate. The hotel is meticulous in its planning.
+                        </p>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot-3"><span class="dot dot-11"></span></span>
+                        <span class="dot"></span>
+                    </div>
+                    <img class="ellipse37" src="./images/Ellipse 37.svg" alt="">
+                </div>
+            </div>
+            <div class="customers-third">
+                <div class="img-10">
+                    <img src="./images/image 2.svg" alt="img 10">
+                </div>
+                <div class="img-9">
+                    <img src="./images/image 01.svg" alt="img 9">
+                </div>
+                <div class="img-11">
+                    <img src="./images/image 4.svg" alt="img 11">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Download -->
+    <div class="clear"></div>
+    <div class="container">
+        <div class="download">
+            <h2>Download Now Travel <br>
+                Community Apps</h2>
+            <div class="store">
+                <div class="play-market">
+                    <a href="#"><img src="./images/google play.svg"></a>
+                </div>
+                <div class="app-store">
+                    <a href="#">
+                        <img src="./images/apple store.svg" alt="App store">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="container">
+        <div class="footer">
+            <div class="footer1">
+                <img src="./images/logo (1).svg" alt="logo">
+                <p>
+                    You can dream, create, design, and buildsa the most wonderful place.
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i> <span>+0123 456 987, +0123 456 987</span>
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i> <span>yourmailaddress@gmail.com</span>
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i> <span>www.yourwebsitename.com</span>
+                </p>
+            </div>
+            <div class="footer2">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">- About Us</a></li>
+                    <li><a href="#">- Destinations</a></li>
+                    <li><a href="#">- Latest Blog</a></li>
+                    <li><a href="#">- Our Team </a></li>
+                    <li><a href="#">- Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="#">- Customer Support</a></li>
+                    <li><a href="#">- Privacy & Policy </a></li>
+                    <li><a href="#">- Teams & Conditions</a></li>
+                    <li><a href="#">- Forum</a></li>
+                    <li><a href="#">- Tour Guid</a></li>
+                </ul>
+            </div>
+            <div class="footer4">
+                <h2>Newsletter</h2>
+                <input type="text"> <br>
+                <button class="discover-more">Subscribe Now</button>
+            </div>
+        </div>
+        <hr class="bottom-hr">
+        <p class="copy">Copyright @2021-30-12 till @2021-31-12 Ravel. Designed By <span>Sulaymon Abdukarimov</span></p>
+    </div>
+</body>
+
+</html>
